@@ -13,14 +13,14 @@ so you may need to seek legal advice.
 To the database, add two columns
 - one is TandCChangeDate and has one record, containing today's date
 - the other is AgreedToTandCDate, and for each customer contains the
-  date they date they agrred to the Terms and Conditions. This will
+  date they agrred to the Terms and Conditions. This will
   initially be set to some time in the far past, "day zero" in 
   whatever date scheme the database uses
 
 To the end of the web-site login program, add 
 ```
    if (TandCChangeDate is newer than thisCustomer's AgreedToTandCDate) {
-           display T&C page
+        display T&C page
         ask if they agree
         if they agree {
         	set thisCustomer.AgreedToTandCDate = today
