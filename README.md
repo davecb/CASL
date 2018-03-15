@@ -35,3 +35,5 @@ To the end of the web-site login program, add
 If your email program or web site is from a vendor, ask if they already
 have this feature.  One of my customers already did, so we only needed
 to update the T&Cs and change the TandCChangeDate.
+
+--dave
